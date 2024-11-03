@@ -28,5 +28,3 @@ def launch():
 if __name__ == "__main__":
     launch()
 
-
-#ya3 main.ya3

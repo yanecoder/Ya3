@@ -1,5 +1,4 @@
 from exceptions import missingEoS
-from lexer import Lexer
 
 class Parser:
     

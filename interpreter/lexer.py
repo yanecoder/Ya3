@@ -1,6 +1,5 @@
 from tokenizer import Token
 
-
 class Lexer:
     
     def __init__(self, code):
@@ -72,7 +71,3 @@ class Lexer:
         if readingString:
             return "__misq__" # передача MissingQuote ошибки в parser
         return self.tokenized
-    
-# code = Lexer(["a = \"Hello, world + a;"])
-# lexed = code.splitTokens()
-# print(1)

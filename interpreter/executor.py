@@ -1,5 +1,3 @@
-from lexer import Lexer
-from parser import Parser
 from exceptions import unrecognizedVariable
 
 class Executor:
